@@ -1,6 +1,7 @@
 version: '3.8'
 services:
   my-spring-boot-app:
+    image: 'spring_boost_rest_hw'
     build: ./
     ports:
       - "8080:8080"
